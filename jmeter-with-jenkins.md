@@ -6,13 +6,16 @@
 4. Setup new Item -> provide job name
 
 ### Build --- Execute Windows batch command
+`
 c:\apache-jmeter\bin\jmeter -j jmeter.save.saveservice.output_format=xml -n -t
 c:\apache-jmeter\bin\sathyamus.git.jmx -l c:\apache-jmeter\reports\sathyamus.git.report.jtl
+`
 
 ### Post-build Action
 select Publish Performance test result report;
 
+`
 c:\apache-jmeter\reports\sathyamus.git.report.jtl
-
+`
 
 Refer to : https://www.jenkins.io/doc/book/using/using-jmeter-with-jenkins/
